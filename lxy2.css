@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	
+	background-image: url("mulu.png");
+	background-repeat: no-repeat;
+	background-size:80% 80%;
+	background-attachment: fixed;
+	background-position: center;
+   
+   
+    text-transform: uppercase;
+     
+    font-size: 80%;
+    text-align: center;
+    -webkit-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+}
+.g1{
+		margin:0 auto; 
+		width:1000px; 
+		height:600px; 
+		border:0px solid;
+		position: relative; 
+		background-image: url("xioaxueqi/2.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.g2{
+		width: 440px;
+		height: 560px;
+		float: left;
+	}
+	.g3{
+		font-size: 300%;
+		font-weight:500;
+		font-family:STXingkai;
+	}
+	.g4{
+		font-size: 550%;
+		font-weight:500;
+		font-family:STXingkai;
+	}
+	.g5{
+		margin:auto auto;  
+
+		width:800px; 
+		height:450px; 
+		position: absolute;  
+        top: 0; left: 0; bottom: 0; right: 0; 
+		
+		z-index: 1;
+	}
+	a {
+	margin-top: 50px;
+	text-decoration:none;
+}
+a:link {
+	color:antiquewhite;
+}
+a:visited {
+	color:antiquewhite;
+}
+a:hover {
+	color: #F0FFFF;
+	text-shadow: .2rem 0rem .5rem #FF4500,-.2rem 0rem .5rem #FF6347,0rem .2rem .5rem #FFA500,0rem -.2rem .5rem #FFD700;
+}
+	img{
+		width: 40px;
+		
+	}
